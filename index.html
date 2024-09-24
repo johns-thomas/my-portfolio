@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media.css" />
+</head>
+
+<body>
+  <nav id="desk-nav">
+    <div class="logo">Johns Thomas</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hb-nav">
+    <div class="logo">Johns Thomas</div>
+    <div class="hb-menu">
+      <div class="hb-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__img-container">
+      <img src="assets/Johns-img.JPG" alt="Johns Thomas" class="profile-pic"  />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello I'm</p>
+      <h1 class="title">Johns Thomas</h1>
+      <p class="section__text__p2">Software Engineer</p>
+
+      <div class="btn-container">
+        <button class="btn btn-color" onclick="window.open('./assets/Johns Thomas resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="window.open('https://www.linkedin.com/in/johns-p-thomas/')" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="window.open('https://github.com/johns-thomas')" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__img-container">
+        <img src="./assets/profile-pic.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+
+        <div class="text-container">
+          <p>
+            As a passionate software engineer, I find immense satisfaction in solving complex problems through innovative technology. From designing scalable, high-performance applications to exploring cutting-edge cloud solutions, my work is driven by curiosity and a love for continuous learning. The ever-evolving field of software development fascinates me, and I thrive on staying updated with the latest advancements, be it mastering new programming languages, deepening my knowledge of cloud architecture, or embracing emerging trends like AI and machine learning. My journey in tech is fueled by a commitment to pushing boundaries, improving my skills, and contributing to impactful projects that make a difference.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+
+      <div class="details-container">
+        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+        <h3>Envestnet Asset Management Ltd.</h3>
+        <p>2+ years <br />Software Development Engineer</p>
+      </div>
+      <div class="exp-list">
+        <li>Architected and developed scalable, high-performance software solutions for the Financial Advisory Platform
+          using Java EE, Spring Framework, and SQL as specified by technical design.</li>
+        <li>Integrated multiple application components into existing workflows using microservice architecture.</li>
+        <li>Implemented 30+ new features through with product managers and engineering leads to understand business
+          requirements and deliver robust solutions.</li>
+        <li>Conducted comprehensive testing (unit testing to integration testing) from development to production,
+          ensuring
+          high-quality releases, attaining 25% reduction in defects.</li>
+      </div>
+
+
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+  </section>
+
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Technical Skills</h1>
+    <div class="experience-details-container">
+      
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React JS</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Bootstrap</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Spring Framework</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>AWS Cloud Services</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Microservices</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SQL & NoSQL Databases</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">DevOps</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Docker</h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>AWS CI/CD Pipeline </h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Kubernetes</h3>
+
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Maven</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Junit5 & Mockito</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#education'" />
+  </section>
+  <section id="education">
+    <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">Education</h1>
+      <div class="education-details-container">
+    <div class="education-details-container">
+      <img
+        src="./assets/education.png"
+        alt="Education icon"
+        class="icon"
+      />
+      <p >Bachelors Degree</p>
+      
+      <div class="details-container">
+        <p><h3>Bachelor of Technology in Computer Science & Engineering</h3></p>
+        <p>
+          Rajiv Gandhi Institute of Technology, Kottayam, India
+        </p>
+        <p>2017-2021</p>
+      </div>
+      
+    </div>
+    <div class="education-details-container">
+      <img
+        src="./assets/education.png"
+        alt="Education icon"
+        class="icon"
+      />
+      <p >Masters Degree</p>
+      
+      <div class="details-container">
+        <p><h3>Mastes in Cloud Computing</h3></p>
+        <p>
+          National College of Ireland, Dublin, Ireland
+        </p>
+        <p>2023-2024</p>
+      </div>
+      
+    </div>
+      </div>
+
+<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:johns18111998@gmail.com">johns18111998@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/johns-p-thomas/">LinkedIn</a></p>
+      </div>
+    </div>
+  
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Johns Thomas. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
